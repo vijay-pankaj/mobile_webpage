@@ -1,0 +1,95 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	background-color: lightskyblue;
+	width: 450px;
+	height: 100%;
+}
+.pic{
+	display:flex;
+	justify-content: center;
+	padding-top: 50px;
+}
+img{
+	border-radius: 50%;
+	box-shadow: 10px 12px 13px;
+}
+.head{
+	background-color:#0000008c;
+	color: red;
+	box-shadow: 10px 12px 16px;
+	display: flex;
+	justify-content: space-evenly;
+	height: 40px;
+	width: 450px;
+	border-radius: 10px;
+	align-items: center;
+}
+h2{
+	color: goldenrod;
+}
+.link{
+	display: flex;
+	padding-top: 20px;
+	justify-content: space-evenly;
+}
+a{
+	color: blue;
+	text-decoration: none;
+	}
+.insta{
+	box-shadow: 16px 14px 20px;
+	border-radius: 10px;
+}
+
+.yt{
+	box-shadow: 16px 14px 20px;
+	border-radius: 10px;
+
+}
+.linkedin{
+	box-shadow: 16px 14px 20px;
+	border-radius: 10px;
+}
+.git{
+	box-shadow: 10px 12px 13px;
+	border-radius: 10px;
+}
+.text{
+	padding-left: 10px;
+}
+button{
+	margin-left: 20px;
+	margin-top: 30px;
+	width: 200px;
+	height: 30px;
+	background-color: lightskyblue;
+	border-radius: 10px;
+	box-shadow: 10px 14px 12px;
+}
+li{
+	padding-left: 10px;
+	padding-top: 15px;
+	text-transform: uppercase;
+
+}
+footer{
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+p{
+	text-shadow: 2px 2px 2px gold;
+color: black;
+}
+h3{
+	text-shadow: 12px 13px 10px;
+	color: blue;
+}
+.thanks{
+	border: 3px solid black;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}

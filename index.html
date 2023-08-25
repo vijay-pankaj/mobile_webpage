@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Webpage for mobile</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+	<link rel="icon" type="text/css" href="https://tse1.mm.bing.net/th?id=OIP.cMjEZxfwQSSS8UT-HrMLKAHaIY&pid=Api&P=0&h=180">
+</head>
+<body>
+	<header>
+	<div class="head"><h2><i class="fa-sharp fa-solid fa-skull-crossbones"></i>V_vij@y<i class="fa-sharp fa-solid fa-skull-crossbones"></i></h2> </div>
+<div class="pic"><img src='vijay.png'></div>
+
+<div class="text"><h3>HELLO!</h3><li><p>First of all welcome to my webpage.</p></li>
+<li><p>My name is  vijay pankaj from kota(Rajasthan).</p></li>
+	<li><p>I am a CSE student at UCET Bikaner College, pursuing B.Tech Engineering.</p></li>
+	<h3>You can reach me via</h3>
+	<li><p>You can reach out to me through my Instagram & YouTube.</p></li>
+	<li><p>Gmail=vijaypankaj960@gmail.com</p></li>
+	<li><p>mob.= 8078685079</p></li>
+	</div>
+	<div class="proskills">
+    <div class="project">
+        <button onclick="toggleVed()">PROJECT</button> 
+        <div id="ved" class="ved" style="display: none;">
+        <li><a href="https://vijay-pankaj.github.io/OCTANET_JULY/">https://vijay-pankaj.github.io/OCTANET_JULY/</a></li>
+        <li><a href="https://vijay-pankaj.github.io/NewTask/">https://vijay-pankaj.github.io/NewTask/</a></li>
+        <li>If you're interested, you can explore my HTML and CSS code on my GitHub profile.</li>
+         </div>
+    </div>
+    <div class="toggle-container">
+        <button onclick="toggleMain()">SKILLS</button>
+        <div id="main" class="main" style="display: none;">
+        		<li>HTML</li>
+        		<li>CSS</li>
+        		<li>C(Programming language)</li>
+        		<li>C++</li>
+        		<li>JAVA</li>
+        		<li>problem solving</li>
+        		<li>time management</li>
+        </div>
+    </div>
+    <div class="language"> <button onclick="togglelanguage()">LANGUAGE</button>
+        <div id="language" class="language" style="display: none;">
+        		<li>HINDI</li>
+        		<li>ENGLISH</li>
+        </div>
+</div>
+
+<script>
+var vedDiv = document.getElementById('ved');
+var vedDisplay = 0; // Start with the div hidden
+
+function toggleVed() {
+    if (vedDisplay === 0) {
+        vedDiv.style.display = 'block';
+        vedDisplay = 1;
+    } else {
+        vedDiv.style.display = 'none';
+        vedDisplay = 0;
+    }
+}
+
+var mainDiv = document.getElementById('main');
+var mainDisplay = 0; // Start with the div hidden
+
+function toggleMain() {
+    if (mainDisplay === 0) {
+        mainDiv.style.display = 'block';
+        mainDisplay = 1;
+    } else {
+        mainDiv.style.display = 'none';
+        mainDisplay = 0;
+    }
+}
+
+var languageDiv = document.getElementById('language');
+var languageDisplay = 0; // Start with the div hidden
+
+function togglelanguage() {
+    if (languageDisplay === 0) {
+        languageDiv.style.display = 'block';
+        languageDisplay = 1;
+    } else {
+        languageDiv.style.display = 'none';
+        languageDisplay = 0;
+    }
+}
+</script>
+</header>
+<footer>
+	<div class="link">
+		<div class="insta"><a href="https://instagram.com/stylish__ved?utm_source=qr&igshid=ZDc4ODBmNjlmNQ%3D%3D"><h3>Instagram</h3></a></div>
+		<div class="yt"><a href="http://www.youtube.com/@v_Vijay"><h3>Youtube</h3></a></div>
+		<div class="linkedin"><a href="http://www.linkedin.com/in/vijay-pankaj-48109b207"><h3>Linkedin</h3></a></div>
+		<div class="git"><a href="https://github.com/vijay-pankaj/OCTANET_JULY.git"><h3>Github</h3></a></div>
+	</div>
+</footer>
+<div class="inst">**To view projects, click on the "Projects" button. Similarly, to explore skills, click on the "Skills" button, and for languages, click on the "Languages" button.**</div>       
+<div class="thanks">It means a lot that you visited my site. Thanks!</div>
+</body>
+</html>
